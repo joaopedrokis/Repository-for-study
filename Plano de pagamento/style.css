@@ -1,0 +1,217 @@
+:root{
+    --main-color:#3352D9;
+    --button-color:#F5F5F5;
+    --gradient-color:#375590;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+    background-color: var(--main-color);
+}
+
+.Titulos-iniciais{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   font-family: "Bebas Neue", sans-serif;
+   gap: 38px;
+   margin-top: 80px;
+}
+
+
+.Titulo-inicial{
+    font-size: 100px;
+    font-weight: 400;
+    color: #ffff;
+   
+}
+
+.subtitulo-inicial{
+    font-size: 25px;
+    font-weight: 400;
+}
+
+
+
+.planos{
+    margin-top: 37px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.Mensal{
+    width: 260px;
+    height: 60px;
+    border: solid 1px #000;
+    background: var(--main-color);
+    color: #ffff;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.Anual{
+    width: 260px;
+    height: 60px;
+    border: solid 1px #000;
+    background: #F5F5F5;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+
+
+
+.Plano-básico{
+    font-family: "Bebas Neue", sans-serif;
+    width: 349px;
+    height: 400px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.40);
+    background: linear-gradient(143deg, rgba(94, 145, 246, 0.25) 0%, rgba(55, 85, 144, 0.20) 100%);
+    overflow: hidden;
+   
+}
+
+
+.first-title-basic{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+
+.subtitle-basic{
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 4px;
+    margin-bottom: 28px;
+}
+
+.price-basic{
+    font-size: 40px;
+    font-weight: 400;
+    color: #ffff;
+    margin-top: 20px;
+    margin-bottom: 7px;
+}
+
+.button-basic{
+    width: 305px;
+    height: 34px;
+    background-color: #000;
+    color: #ffff;
+    font-size: 15px;
+    font-family: "Bebas Neue", sans-serif;
+    margin-top: 7px;
+    margin-bottom: 28px;
+}
+
+
+.Basic-benefits{
+    font-size: 8px;
+    font-weight: 400;
+    color: #ffff;
+    gap: 6px;
+    font-family: "Inter", sans-serif;
+}
+
+
+
+.Plano-Empresarial{
+    font-family: "Bebas Neue", sans-serif;
+    width: 339px;
+    height: 400px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.40);
+    background: linear-gradient(143deg, rgba(94, 145, 246, 0.25) 0%, rgba(55, 85, 144, 0.20) 100%);
+    overflow: hidden;
+}
+
+.first-titlte-business{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.subtitle-business{
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 4px;
+    margin-bottom: 28px;
+}
+
+
+
+.price-business{
+    font-size: 40px;
+    font-weight: 400;
+    color: #ffff;
+    margin-top: 20px;
+    margin-bottom: 7px;
+}
+
+
+.button-business{
+    width: 305px;
+    height: 34px;
+    background-color: #000;
+    color: #ffff;
+    font-size: 15px;
+    font-family: "Bebas Neue", sans-serif;
+    margin-top: 7px;
+    margin-bottom: 28px;
+}
+
+
+
+.business-benefits{
+    color: #ffff;
+    font-family: "Inter", sans-serif;
+    font-size: 8px;
+    font-weight: 400;
+    gap: 6px;
+    
+}
+
+
+li{
+    margin-top: 6px;
+}
+
+.container{
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    margin-top: 24px;
+}
+
+
+
+hr{
+    background-color: #000;
+    height: 2px;
+    width: 305px;
+    border: 0;
+}
+
+.Basic{
+    margin-left: 6px;
+}
+
+
+.Business{
+    margin-left: 6px;
+}
+
+ul {
+   list-style: none;
+   
+}
+
+
