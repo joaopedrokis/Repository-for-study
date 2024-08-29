@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body{
+    background-color: #282830;
+}
+
+
+
+.inicio-da-pagina {
+    background-color: rgba(16, 210, 229, 0.90);
+    width: 800px;
+    height: 78px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #FFF;
+    text-align: center;
+    box-sizing: border-box;
+
+
+}
+
+.inicio-da-pagina h1 {
+    font-size: 40.931px;
+    font-weight: 400;
+    font-family: "Bebas Neue", sans-serif;
+    line-height: 78px;
+
+}
+
+.container-do-conteudo {
+    background-image: url(./imagens/image\ 1.png);
+    width: 800px;
+    height: 607px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    padding-left: 5px;
+    padding-top: 8px;
+}
+
+
+
+
+.container-formulario {
+    background: rgba(255, 252, 230, 0.40);
+    width: 296px;
+    height: 350px;
+    font-size: 20px;
+    box-sizing: border-box;
+    padding-left: 6px;
+    padding-top: 7px;
+
+}
+
+.header-conteudo {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+
+
+.header-conteudo h1 {
+    width: 245px;
+    height: 72px;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0.8px;
+    opacity: 0.8;
+}
+
+
+.header-conteudo p {
+    width: 253px;
+    height: 72px;
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    opacity: 0.7;
+
+}
+
+
+form {
+    margin-top: 11px;
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+
+}
+
+input[type="text"] {
+    width: 286px;
+    height: 36px;
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.60);
+    padding-left: 6px;
+    box-sizing: border-box;
+    border-radius: 0;
+    border: 0;
+
+}
+
+
+select {
+    width: 286px;
+    height: 36px;
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.60);
+    border-radius: 0;
+    border: 0;
+
+
+}
+
+
+input[type="submit"] {
+    width: 286px;
+    height: 36px;
+    background: #28D7E8;
+    border-radius: 0;
+    border: 0;
+    margin-bottom: 11px;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 20px;
+    color: #FFF;
+    font-weight: 400;
+
+}
+
+footer {
+    font-family: "Alata", sans-serif;
+    font-weight: 400;
+    background-color: #262626;
+    height: 216px;
+    width: 800px;
+    position: relative;
+    color: #FFF;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer img {
+    width: 137px;
+    height: 183px;
+    position: absolute;
+    top: 9px;
+    left: 195px;
+}
+
+footer h1 {
+    font-size: 20px;
+    width: 138px;
+    height: 28px;
+    position: absolute;
+    top: 15px;
+    left: 380px;
+}
+
+footer .intro {
+    width: 273px;
+    height: 73px;
+    font-size: 11px;
+    position: absolute;
+    top: 58px;
+    left: 380px;
+
+}
+
+
+footer .desfecho{
+    width: 251px;
+    height: 42px;
+    position: absolute;
+    top: 146px;
+    left: 380px;
+    font-size: 11px;
+    font-weight: 400;
+}
